@@ -15,8 +15,8 @@ cd Disruptive && cd client && npm i && cd ../api && npm i && npm start
 ```
 > [!NOTE]
 > 
->- **Iniciar el server en nodejs primero para evitar usar otro puerto**
-
+>- **Iniciar el server en nodejs primero para evitar usar otro puerto el front esta preparado para solicitar al puerto 3000**
+> 
 
 
 
