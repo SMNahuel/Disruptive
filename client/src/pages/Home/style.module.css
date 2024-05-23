@@ -1,0 +1,75 @@
+.ctn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ctn_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 95%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.ctn_items {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 95%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ctn_items_elem > h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.ctn_items_elem {
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+
+  border-bottom: 2px dashed black;
+  margin-bottom: 5px;
+}
+
+.ctn_form > input {
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.ctn_form > button {
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.ctn_items_elem_text{
+  padding-right: 20px;
+}
+
+
+.ctn_items_elem_mult{
+  display: flex;
+  flex-direction: column;
+}
+
+.ctn_items_elem_text_p{
+  white-space: break-spaces;
+  
+}

@@ -1,0 +1,30 @@
+.ctn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px
+}
+
+.ctn > button {
+  margin-top: 10px;
+  border: 2px solid black;
+  height: 50px;
+  min-width: 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.ctn > button:hover {
+  margin-top: 10px;
+  border: 2px solid black;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

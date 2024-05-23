@@ -1,0 +1,115 @@
+.ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ctn_item {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  min-height: 200px;
+}
+
+input {
+  margin: 10px;
+  width: 350px;
+  text-align: center;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 130px;
+  height: 40px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.button label,
+.button input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button input[type="checkbox"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.button input[type="checkbox"]:checked + label {
+  background: black;
+  border-radius: 4px;
+  color: white
+}
+
+.button input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.button input[type="radio"]:checked + label {
+  background: black;
+  border-radius: 4px;
+  color: white
+}
+
+.button label {
+  cursor: pointer;
+  z-index: 90;
+  line-height: 1.8em;
+}
+
+
+button {
+  margin-top: 10px;
+  border: 2px solid black;
+  min-width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  font-weight: bold;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.ctn_items_elem{
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.delete_category{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  justify-content: space-between;
+}
