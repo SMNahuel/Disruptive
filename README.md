@@ -8,7 +8,7 @@
 git clone https://github.com/SMNahuel/Disruptive.git
 ```
 
-- **Instalar paquetes**
+- **Instalar paquetes y correr nodeJS**
 
 ``` bash
 cd Disruptive && cd client && npm i && cd ../api && npm i && npm start
@@ -18,7 +18,7 @@ cd Disruptive && cd client && npm i && cd ../api && npm i && npm start
 >- **Iniciar el server en nodejs primero para evitar usar otro puerto el front esta preparado para solicitar al puerto 3000**
 > 
 
-
+- **Abrir otra pestaña y usar npm start en la carpeta client**
 
 
 
